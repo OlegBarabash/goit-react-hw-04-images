@@ -2,6 +2,7 @@ import ReactModal from 'react-modal';
 
 export const Modal = ({ picture, onCloseModal, isOpen }) => {
   const { largeImageURL, tags } = picture;
+
   const customStyles = {
     overlay: {
       position: 'fixed',
